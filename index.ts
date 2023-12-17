@@ -1,4 +1,4 @@
-// //check prime number 
+//check prime number 
 // function isPrime(num: number): string {
 //     if (num <= 1) {
 //         return "it is not a prime number";
@@ -41,14 +41,23 @@ console.log("🚀 ~ file: index.ts:39 ~ fruits:", fruits);*/
 // const fruits =[ 'apple' , 'mango' , 'leamon' ];
 // fruits.slice(0,1);
 // console.log(fruits);
-let students=["ali" ,"umar" ,"shazad","mani"];
-for(
-    let x=0; x< students.length ; x++
-)
-{
-    console.log(students [students])
-}
+// let students=["ali" ,"umar" ,"shazad","mani"];
+// for(
+//     let x=0; x< students.length ; x++
+// )
+// {
+//     console.log(students [students])
+// }
+let frnds=["ali","umar","ahsan","jutt"];
+console.log(frnds);
+frnds.pop()
+console.log(frnds);
+frnds.unshift("shezad");
+console.log(frnds);
+frnds.splice(2,0,'azeem');
+console.log(frnds);
 
+console.log(frnds);
 
 
 
